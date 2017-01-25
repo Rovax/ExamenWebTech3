@@ -11,4 +11,4 @@ SOAP is nauwgebonden aan de server, en bij enige wijziging bij client of server 
 REST is minder nauwgebonden en kan met aanpassingen omgaan.
 
 
-XML Safety in REST:
+Type Safety in REST:
