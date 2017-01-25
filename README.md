@@ -12,3 +12,9 @@ REST is minder nauwgebonden en kan met aanpassingen omgaan.
 
 
 Type Safety in REST:
+Een eerste, zeer simplistische methode om type safety te creeren is door gebruik te maken van getClass() en te verzekeren dat we het juiste type hebben.
+Als we niet het juiste type hebben, wordt er een error weergegeven.
+
+Een andere methode is om nooit de data te gebruiken in dezelfde functie als waarin ze wordt opgevraagd. 
+Bij het doorgeven aan een andere functie die een parameter van een specifiek type verwacht,
+wordt er dan een error gegeven als dit niet correct is.
